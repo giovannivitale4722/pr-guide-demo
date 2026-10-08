@@ -5,6 +5,7 @@ import { linksRouter } from "./routes/links.js";
 const config = loadConfig();
 const app = express();
 
+app.set("trust proxy", config.trustProxy);
 app.use(express.json());
 app.use(linksRouter(config));
 
