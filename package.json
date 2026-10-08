@@ -1,0 +1,8 @@
+{
+  "name": "shortlinks",
+  "private": true,
+  "type": "module",
+  "scripts": { "dev": "tsx watch src/server.ts", "test": "vitest run" },
+  "dependencies": { "express": "^5.1.0", "nanoid": "^5.1.5" },
+  "devDependencies": { "tsx": "^4.20.0", "typescript": "^5.9.0", "vitest": "^3.2.0", "supertest": "^7.1.0" }
+}
